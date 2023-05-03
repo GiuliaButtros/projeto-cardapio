@@ -58,7 +58,7 @@ main{
     height: 80vh;
     margin: auto;
     border-radius: 0px 0px 10px 10px;  
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.436); /* sombra vazando para cima do NAV, resolver depois */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.436); /* sombra vazando para cima do NAV, resolver depois */
 
     display: flex;
     flex-direction: column;
@@ -85,15 +85,22 @@ main > div#cardapio{
 main > div#cardapio > div.flex-item { /* EFEITOS NO TEXTO COM :HOVER */
     background-color: #F29985;    
     width: 80%;
-    padding: ;
     margin: auto;
     font-size: 1em;
     color: white;
+    border-radius: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.473);
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+main > div#cardapio > div.flex-item:hover {
+    cursor: pointer;
+    background-color: #f3b4a6;
+    letter-spacing: 5px;
+    transition: 0.5s;
 }
 
 main > div#cardapio > div.flex-item > h2 {
@@ -103,8 +110,10 @@ main > div#cardapio > div.flex-item > h2 {
 main > div#cardapio > div.flex-item > span.material-symbols-outlined {
     font-size: 3em;
     text-align: center;
-    
+   
 }
+
+
 
 footer {
     background-color: #BF6A39;
