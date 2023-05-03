@@ -21,10 +21,12 @@ body {
 }
 
 header {
-    background-color: #BF6A39;
+    background-image: linear-gradient(to bottom, #BF6A39,#593C23);
+    /*background-color: #BF6A39;*/
     min-height: 80px;
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.361);
+    
 }
 
 header > h1 {
@@ -35,20 +37,23 @@ header > h1 {
 
 nav.flex-nav {
     background-color: #593C23;
-    height: 30px;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.502);
-
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.502);
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-nav > a { /* ADD hover etc */
+nav > a {
     text-decoration: none;
     color: white;
     padding: 10px;
-    text-align: center;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.361);   
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.598);   
+}
+
+nav > a:hover{ /* talvez acrscentar algo depois */
+    background-image: linear-gradient(to left, #593C23, #724726, #593C23);
+      
 }
 
 main{
