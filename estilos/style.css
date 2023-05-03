@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* PALETA
+
+OFF WHITE #F2E9EC
+BEGE #D9BCA3
+MARROM #BF6A39
+MARROM ESCURO #593C23
+ROSE #F29985
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #D9BCA3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #BF6A39;
+    min-height: 100px;
+}
+
+main {
+    background-color: white;
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+
+}
