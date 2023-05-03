@@ -31,38 +31,85 @@ header > h1 {
     font-size: 3em;
 }
 
+nav.flex-nav {
+    background-color: #593C23;
+    height: 30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.502);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav > a { /* ADD hover etc */
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;   
+}
+
+div.flex-div{
+    display: flex;
+}
+
 main{
     background-color: white;
-    min-width: 250px;
-    width: 400px;
-    height: 60vh;
+    min-width: 300px;
+    width: 70vw;
+    height: 80vh;
     margin: auto;
-    border-radius: 0px 0px 10px 10px;
-}
-
-main > menu#cardapio.flex-container{
-    
-
-}
-
-main > menu > ul{
-    list-style-type: none;
-    height: 60vh;
-
-    margin: auto; 
-
+    border-radius: 0px 0px 10px 10px;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.436); /* sombra vazando para cima do NAV, resolver depois */
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+}
+
+main > div#img {
+    background-image: url(../imagens/pexels-lisa-fotios-1024359.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    height: 300px;
+    
+}
+
+main > menu#cardapio{
+    display: block;
+    
+
+}
+
+main > menu > ul.flex-ul{
+    list-style-type: none;
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+  
 }
 
 main > menu > ul > li {
-    background-color: #F29985;
-    width: 300px;
+    background-color: #F29985;    
+    width: 80%;
     padding: 10px;
     margin: auto;
+}
+
+footer {
+    background-color: #BF6A39;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
-    
-    
+}
+
+footer p {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
