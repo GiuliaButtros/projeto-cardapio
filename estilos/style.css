@@ -22,13 +22,47 @@ body {
 
 header {
     background-color: #BF6A39;
-    min-height: 100px;
+    min-height: 80px;
 }
 
-main {
-    background-color: white;
-    width: 70vw;
-    height: 100vh;
-    margin: auto;
+header > h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+}
 
+main{
+    background-color: white;
+    min-width: 250px;
+    width: 400px;
+    height: 60vh;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > menu#cardapio.flex-container{
+    
+
+}
+
+main > menu > ul{
+    list-style-type: none;
+    height: 60vh;
+
+    margin: auto; 
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+main > menu > ul > li {
+    background-color: #F29985;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    
+    
+    
 }
