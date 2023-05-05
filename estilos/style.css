@@ -123,10 +123,8 @@ main > div#cardapio > div.flex-item > span.material-symbols-outlined {
 }
 
 main > div#cardapio > div.flex-item > div.fundo-hover{
-    width: 100%;
-    height: ;
-    
-    
+    display: none;
+      
 }
 
 
