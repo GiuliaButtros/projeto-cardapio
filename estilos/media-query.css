@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+/* 
+Typical Device Breakpoints 
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: 992px até 1920px
+Grandes telas: acima de 1920px
+*/
+
+@media screen and (min-width: 500px) and (max-width: 992px){
+    main{
+        width: 80vw;
+        height: 70vh;
+    }
+
+    main > div#img {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1920px){
+    main{
+        width: 80vw;
+        flex-direction: row;
+
+        overflow: hidden;
+    }
+
+    main > div#img {
+        height: 100%;
+        width: 30%;
+    }
+
+    main > div#cardapio{
+        height: 100%;
+        width: 70%;
+
+        flex-direction: row;
+    
+    }
+}

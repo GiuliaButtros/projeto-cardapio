@@ -23,14 +23,14 @@ body {
 header {
     background-image: linear-gradient(to bottom, #BF6A39,#593C23);
     /*background-color: #BF6A39;*/
-    min-height: 80px;
+    height: 70px;
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.361);
     
 }
 
 header > h1 {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     font-size: 3em;
 }
@@ -59,8 +59,8 @@ nav > a:hover{ /* talvez acrscentar algo depois */
 main{
     background-color: white;
     min-width: 300px;
-    width: 70vw;
-    height: 80vh;
+    width: 100vw;
+    height: 75vh;
     margin: auto;
     border-radius: 0px 0px 10px 10px;  
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.436); /* sombra vazando para cima do NAV, resolver depois */
