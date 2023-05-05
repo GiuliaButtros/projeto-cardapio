@@ -86,6 +86,7 @@ main > div#cardapio{
 
     display: flex;
     flex-direction: column;
+    
 }
 
 main > div#cardapio > div.flex-item { /* EFEITOS NO TEXTO COM :HOVER */
@@ -100,6 +101,8 @@ main > div#cardapio > div.flex-item { /* EFEITOS NO TEXTO COM :HOVER */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 main > div#cardapio > div.flex-item:hover {
@@ -117,6 +120,13 @@ main > div#cardapio > div.flex-item > span.material-symbols-outlined {
     font-size: 3em;
     text-align: center;
    
+}
+
+main > div#cardapio > div.flex-item > div.fundo-hover{
+    width: 100%;
+    height: ;
+    
+    
 }
 
 

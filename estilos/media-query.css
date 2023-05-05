@@ -46,14 +46,14 @@ Grandes telas: acima de 1920px
         width: 100%;
         border-radius: 0px; 
         margin: 0px;
-        
-        background-color: #F29985;    
+                   
     }
 
-    main > div#cardapio > div.flex-item:hover {
-
+    main > div#cardapio > div.flex-item > div.fundo-hover:hover{
         
-
+        width: 100%;
+        height: 70vh;
+        background-color: #f3b4a6;
     }
 
 
