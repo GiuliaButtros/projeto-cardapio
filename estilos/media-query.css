@@ -49,13 +49,13 @@ Grandes telas: acima de 1920px
        
     }
 
-    main > div#cardapio > div.flex-item:hover + .fundo-hover{
+    main > div#cardapio > div.flex-item:hover{
         cursor: pointer;
         background-color: #f3b4a6;
         letter-spacing: 5px;
         transition: 0.5s;
 
-        display: block;
+    
     }
 
   main > div#cardapio > div.flex-item > div.fundo-hover:hover{
