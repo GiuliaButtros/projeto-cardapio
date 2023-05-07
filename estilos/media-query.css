@@ -37,6 +37,7 @@ Grandes telas: acima de 1920px
     main > div#cardapio{
         height: 100%;
         width: 70%;
+        background-color: #F2E9EC;
 
         flex-direction: row;
     }

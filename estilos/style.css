@@ -83,6 +83,7 @@ main > div#img {
 main > div#cardapio{
     height: calc(100% - 250px);
     width: 100%;
+    
 
     display: flex;
     flex-direction: column;
@@ -122,12 +123,10 @@ main > div#cardapio > div.flex-item > span.material-symbols-outlined {
    
 }
 
-main > div#cardapio > div.flex-item > div.fundo-hover{
-    background-color: #f3b4a6;
-    width: 100%;
-    height: 70vh;
+/*main > div#cardapio > div.flex-item > div.fundo-hover{
+    display: none;
       
-}
+}*/
 
 
 
