@@ -13,7 +13,7 @@ ROSE #F29985
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 body {
@@ -59,9 +59,9 @@ nav > a:hover{ /* talvez acrscentar algo depois */
 
 main{
     background-color: white;
-    min-width: 300px;
-    width: 100vw;
-    height: 75vh;
+    min-width: 390px;
+    /*width: 100vw;*/
+    height: 100%;
     margin: auto;
     border-radius: 0px 0px 10px 10px;  
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.436); /* sombra vazando para cima do NAV, resolver depois */
@@ -81,7 +81,7 @@ main > div#img {
 }
 
 main > div#cardapio{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     
 
@@ -109,7 +109,7 @@ main > div#cardapio > div.flex-item { /* EFEITOS NO TEXTO COM :HOVER */
 main > div#cardapio > div.flex-item:hover {
     cursor: pointer;
     background-color: #f3b4a6;
-    letter-spacing: 5px;
+    /*letter-spacing: 1px;*/
     transition: 0.5s;
 }
 
@@ -125,18 +125,38 @@ main > div#cardapio > div.flex-item > span.material-symbols-outlined {
 
 main > div#cardapio > div.flex-item > div.fundo-cardapio{
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: #D9BCA3;
     padding: 5px;
+    
+
+    display: grid;
+    grid-template-columns: 33% auto auto;
+    justify-items: center;
+    
+
+    
+}
+
+main > div#cardapio > div.flex-item > div.fundo-cardapio > img {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    
+}
+
+main > div#cardapio > div.flex-item > div.fundo-cardapio > h2{
+    
 }
 
 
 footer {
     background-color: #BF6A39;
-    padding: 3px;
+    padding: 3px 0px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     
 }
