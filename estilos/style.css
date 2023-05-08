@@ -81,7 +81,7 @@ main > div#img {
 }
 
 main > div#cardapio{
-    height: calc(100% - 250px);
+    height: 100vh;
     width: 100%;
     
 
@@ -123,11 +123,12 @@ main > div#cardapio > div.flex-item > span.material-symbols-outlined {
    
 }
 
-/*main > div#cardapio > div.flex-item > div.fundo-hover{
-    display: none;
-      
-}*/
-
+main > div#cardapio > div.flex-item > div.fundo-cardapio{
+    width: 100%;
+    height: 100px;
+    background-color: #D9BCA3;
+    padding: 5px;
+}
 
 
 footer {
