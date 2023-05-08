@@ -133,7 +133,7 @@ main > div#cardapio > div.flex-item > div.fundo-cardapio:hover{
     transition: 0.5s;
 }
 
-main > div#cardapio > div.flex-item > div.fundo-cardapio > img {
+main > div#cardapio > div.flex-item > div.fundo-cardapio > div.grid-items {
     background-color: aquamarine;
     height: 100px;
     width: 100px;
